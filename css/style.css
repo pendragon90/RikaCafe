@@ -62,6 +62,14 @@ header h2 {
     font-family: serif;
 }
 
+/* .perbaikan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+} */
+
 #sidenav {
     display: flex;
     place-content: center;
