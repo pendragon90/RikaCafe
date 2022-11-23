@@ -49,7 +49,7 @@ header {
     padding: 20px;
     justify-content: space-around;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: white;
@@ -99,6 +99,10 @@ section {
     text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
+.sect1 {
+    margin-top: 13%;
+}
+
 section .konten p {
     font-size: 25px;
 }
@@ -129,6 +133,10 @@ section img {
     background-color: #364f6b;
     border-radius: 10px;
     justify-content: center;
+}
+
+.tombol:hover {
+    background-color: #F0B27A;
 }
 
 /* Coffee shop list */
@@ -240,7 +248,7 @@ footer .akhir {
     padding: 30px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
 
     /* header */
     .bg {
@@ -342,7 +350,7 @@ footer .akhir {
     }
 
     .kartu-judul h2 {
-        font-size: medium;
+        font-size: 25px;
         margin: auto;
     }
 
