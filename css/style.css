@@ -387,12 +387,15 @@ footer .akhir {
 
     /* card */
 
-   .card {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 5px;
-   }
-   
+    .card {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card .kartu-judul {
+        width: 30%;
+    }
+
     .kartu-judul h2 {
         font-size: 18px;
         margin: auto;
