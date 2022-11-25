@@ -105,6 +105,7 @@ section {
     justify-content: space-around;
     color: #152d47;
     text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .sect1 {
@@ -268,6 +269,40 @@ footer .akhir {
         position: fixed;
     }
 
+    /* .burst {
+        background: #063364;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        text-align: center;
+        top: -15px;
+        right: -15px;
+      }
+      .burst:before,
+      .burst:after {
+        content: "";
+        position: absolute;
+        top: -5px;
+        right: 0px;
+        height: 80px;
+        width: 80px;
+        background: #063364;
+      }
+      .burst:before {
+        transform: rotate(30deg);
+      }
+      .burst:after {
+        transform: rotate(60deg);
+      }
+
+      .burst h1 {
+        position: absolute;
+        font-size: 12px;
+        bottom: ;
+        z-index: 999;
+        color: white;
+      } */
+
     .sect1 {
         margin-top: 25%;
     }
@@ -352,11 +387,12 @@ footer .akhir {
 
     /* card */
 
-    .kartu-judul {
-        display: flex;
-        width: 40%;
-    }
-
+   .card {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+   }
+   
     .kartu-judul h2 {
         font-size: 18px;
         margin: auto;
