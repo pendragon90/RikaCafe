@@ -392,11 +392,11 @@ footer .akhir {
     gap: 8px;
   }
     .card .kartu-judul {
-        width: 50vw;
+        width: 30vw;
     }
 
     .kartu-judul h2 {
-        font-size: 18px;
+        font-size: 15px;
         margin: auto;
     }
 
