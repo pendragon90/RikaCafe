@@ -269,40 +269,6 @@ footer .akhir {
         position: fixed;
     }
 
-    /* .burst {
-        background: #063364;
-        width: 80px;
-        height: 80px;
-        position: absolute;
-        text-align: center;
-        top: -15px;
-        right: -15px;
-      }
-      .burst:before,
-      .burst:after {
-        content: "";
-        position: absolute;
-        top: -5px;
-        right: 0px;
-        height: 80px;
-        width: 80px;
-        background: #063364;
-      }
-      .burst:before {
-        transform: rotate(30deg);
-      }
-      .burst:after {
-        transform: rotate(60deg);
-      }
-
-      .burst h1 {
-        position: absolute;
-        font-size: 12px;
-        bottom: ;
-        z-index: 999;
-        color: white;
-      } */
-
     .sect1 {
         margin-top: 25%;
     }
@@ -381,9 +347,6 @@ footer .akhir {
         width: 100%;
     }
 
-    /* section h2, section p {
-        max-width: 100%;
-    } */
 
     /* card */
 
