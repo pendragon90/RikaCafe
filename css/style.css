@@ -351,11 +351,13 @@ footer .akhir {
     /* card */
 
   .card {
-    grid-template-columns: auto auto;
-    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
     .card .kartu-judul {
-        width: 30vw;
+        width: 40%;
     }
 
     .kartu-judul h2 {
